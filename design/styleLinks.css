@@ -1,0 +1,174 @@
+/* bouton burger mobile */
+.btn-burger div {
+  height: 3px;
+  width: 30px;
+  background-color: var(--pinkmo);
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.btn-burger {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.sentence {
+  text-align: center;
+  font-family: "Fredoka One", "Arial";
+  font-size: 1.2rem;
+  margin-top: 3%;
+}
+
+.sentence a {
+  text-decoration: none;
+}
+
+/* DISPLAY ARRAY CENTER  */
+.containerV2 {
+  display: grid;
+  width: 920px;
+  height: 100px;
+  margin: 2% auto;
+  border-radius: 5px;
+}
+
+.gridMain {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr);
+  align-items: center;
+  margin: auto 5%;
+}
+
+.gridMain a {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.gridFirst {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.gridSecond {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.gridThree {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.gridFour {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.gridFive {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.gridSix {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* !website's footer */
+
+footer {
+  margin-top: 3%;
+}
+
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 730px) {
+
+  /* ! header */
+
+  .section-flex {
+    width: 100%;
+  }
+
+  /* !container */
+  .sentence {
+    margin-bottom: 6%;
+  }
+
+  .containerV2 {
+    display: grid;
+    width: 80%;
+    margin: 2% auto;
+    background: #171717;
+    border-radius: 10px;
+  }
+
+  /* !footer */
+
+  footer {
+    margin-top: 8%;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*? mobile size */
+@media screen and (max-width: 600px) {
+  .sentence {
+    font-size: 1rem;
+    margin-top: 6%;
+  }
+
+  .sentence a {
+    text-decoration: none;
+  }
+
+  /* DISPLAY ARRAY CENTER  */
+  .containerV2 {
+    width: 300px;
+    margin: 11% auto;
+    text-align: center;
+  }
+
+  .gridMain a {
+    font-size: 90%;
+  }
+
+  /* !footer */
+
+  footer {
+    margin-top: 6%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sentence {
+    margin-top: 2%;
+    font-size: 170%;
+  }
+
+  .sentence a {
+    text-decoration: none;
+  }
+
+  /* DISPLAY ARRAY CENTER  */
+  .containerV2 {
+    width: 1100px;
+  }
+
+  .gridMain {
+    font-size: 200%;
+    margin: auto 4%;
+    text-align: center;
+    row-gap: 20px;
+  }
+
+  .gridMain a {
+    font-size: 90%;
+  }
+}
