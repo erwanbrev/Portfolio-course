@@ -12,12 +12,10 @@
 :root {
     --pinkmo: #f5578e;
     --bluemo: #56ddd9;
-    --grey: #bac0c0;
-    --greyBis: #A3A5A5;
-    --bgtwo: #171717;
-    --bgBlack: #010101;
+    --font-mail: #bac0c0;
+    --header-footer: #171717;
+    --bgBlack: #080808;
     --bgWhite: #ffeeee;
-    --bgtwoBis: #CCECE6;
 }
 
 /* !definition du body */
@@ -44,36 +42,30 @@ body {
     color: var(--pinkmo);
 }
 
-.colorOrange {
+.colorHTML {
     color: orangered;
 }
 
-.colorYell {
+.colorJS {
     color: yellow;
 }
 
-.colorBlueB {
+.colorCSS {
     color: #185ada;
 }
 
 .colorGrey {
-    color: var(--grey);
+    color: var(--font-mail);
 }
 
 .bgtwo {
-    color: var(--bgtwo);
+    color: var(--header-footer);
 }
 
 /* !header */
 
-/*!header building */
-
 header {
     height: 12vh;
-}
-
-.section-flex {
-    height: 100%;
 }
 
 nav {
@@ -132,7 +124,7 @@ header,
 .containerV2,
 #proj,
 footer {
-    background-color: var(--bgtwo);
+    background-color: var(--header-footer);
 }
 
 .containerV2 a {
@@ -141,7 +133,7 @@ footer {
 
 #mail a,
 .wrapSign {
-    color: var(--grey);
+    color: var(--font-mail);
 }
 
 #proj img {
@@ -161,6 +153,9 @@ footer {
 footer {
     display: grid;
     height: 14vh;
+    bottom: 0;
+    position: relative;
+    margin-top: 4%;
 }
 
 .wrapperFooter {
@@ -279,7 +274,7 @@ footer {
         display: flex;
         font-size: 1.5rem;
         text-decoration: none;
-        color: var(--grey);
+        color: var(--font-mail);
         font-size: 2rem;
         justify-content: center;
     }
@@ -388,6 +383,7 @@ footer {
         grid-row: 3;
         color: var(--bluemo);
     }
+
     .wrapSign p {
         margin-left: 0;
         font-size: 1.5rem;
@@ -414,7 +410,7 @@ footer {
 
     #mail a {
         text-decoration: none;
-        color: var(--grey);
+        color: var(--font-mail);
         font-size: 1.6rem;
     }
 
@@ -445,13 +441,9 @@ footer {
 @media screen and (min-width: 1920px) {
 
     /* !header */
-    .flex-nav {
-        height: 100px;
-        margin-top: 1%;
-    }
 
     header {
-        height: 80px;
+        height: 14vh;
     }
 
     nav span {
@@ -466,14 +458,9 @@ footer {
 
     /* !footer */
     footer {
-        margin-top: 2%;
         display: grid;
+        align-items: center;
         height: 14vh;
-    }
-
-    .flex-nav2 {
-        max-width: 100%;
-        margin-top: 25px;
     }
 
     #pics {

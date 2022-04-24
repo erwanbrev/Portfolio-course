@@ -79,20 +79,14 @@
 
 /* !website's footer */
 
-footer {
+/* footer {
   margin-top: 3%;
-}
+} */
 
 /*  */
 /*  */
 /*  */
 @media screen and (max-width: 730px) {
-
-  /* ! header */
-
-  .section-flex {
-    width: 100%;
-  }
 
   /* !container */
   .sentence {
@@ -108,10 +102,10 @@ footer {
   }
 
   /* !footer */
-
+/* 
   footer {
     margin-top: 8%;
-  }
+  } */
 }
 
 /*  */
@@ -141,9 +135,9 @@ footer {
 
   /* !footer */
 
-  footer {
+  /* footer {
     margin-top: 6%;
-  }
+  } */
 }
 
 @media screen and (min-width: 1920px) {

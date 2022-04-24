@@ -98,6 +98,7 @@ a.dwnld-btn:hover {
   width: 350px;
   border-radius: 5px;
 }
+
 /* !website's footer */
 
 .section-flex2 {
@@ -105,9 +106,9 @@ a.dwnld-btn:hover {
   align-content: center;
 }
 
-footer {
+/* footer {
   margin-top: 4%;
-}
+} */
 
 
 /*  */
@@ -138,10 +139,6 @@ footer {
   }
 
   /* ! container */
-
-  a.dwnld-btn {
-    margin: 4% 8%;
-  }
 
   .indexTitle {
     width: 80%;
@@ -174,7 +171,6 @@ footer {
     grid-row: 1;
     width: 90%;
     height: 85%;
-    padding: 2%;
   }
 
   .gridSecond {
@@ -202,126 +198,130 @@ footer {
   }
 }
 
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*? mobile size */
-  /* ?400 x 786 */
-  @media screen and (max-width: 600px) {
-    .indexTitle {
-      width: 85%;
-      margin: auto;
-      font-size: 160%;
-      justify-content: center;
-      padding: 10px;
-      text-align: center;
-      margin-top: 3%;
-    }
-
-    a.dwnld-btn {
-      margin: 4% auto;
-    }
-
-    .hr {
-      height: 3px;
-      margin: 2% auto;
-    }
-
-    .gridMain {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      justify-items: center;
-      margin: 5% 5%;
-      height: 890px;
-    }
-
-    .gridFirst {
-      grid-column: 1;
-      grid-row: 1;
-      width: 300px;
-      text-align: center;
-    }
-
-    .gridSecond {
-      margin-top: 10%;
-      grid-column: 1;
-      grid-row: 2;
-      margin-bottom: 0%;
-    }
-
-    /* MAIN */
-    h2 {
-      padding: 2%;
-      font-size: 90%;
-      width: 100%;
-      line-height: 140%;
-    }
-
-    .img {
-      display: block;
-    }
-
-    .sizepic {
-      width: 190px;
-    }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*? mobile size */
+/* ?400 x 786 */
+@media screen and (max-width: 600px) {
+  .indexTitle {
+    width: 85%;
+    margin: auto;
+    font-size: 160%;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3%;
   }
 
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /* ?1920 x 1080 PC  */
-  @media screen and (min-width: 1920px) {
-
-    /* !container */
-    .gridMain {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      justify-items: center;
-      margin: 2% auto;
-      width: 1250px;
-      height: 620px;
-    }
-
-    .gridFirst {
-      grid-column: 1;
-      grid-row: 1;
-      width: 721px;
-    }
-
-    .gridSecond {
-      grid-column: 2;
-      grid-row: 1;
-      margin-top: 2%;
-      margin-left: 1%;
-    }
-
-    h2 {
-      padding: 2%;
-      font-size: 140%;
-      width: 100%;
-      line-height: 140%;
-    }
-
-    a.dwnld-btn {
-      padding: 15px;
-      margin: 1.2% 6.8%;
-    }
-
-    .img {
-      display: block;
-    }
-
-    .sizepic {
-      margin-top: 3%;
-      width: 450px;
-    }
+  a.dwnld-btn {
+    margin: 4% auto;
   }
+
+  #dwnld-btn-EN {
+    margin: 6% 9%;
+  }
+
+  .hr {
+    height: 3px;
+    margin: 2% auto;
+  }
+
+  .gridMain {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin: 5% 5%;
+    height: 890px;
+  }
+
+  .gridFirst {
+    grid-column: 1;
+    grid-row: 1;
+    width: 300px;
+    text-align: center;
+  }
+
+  .gridSecond {
+    margin-top: 10%;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  /* MAIN */
+  h2 {
+    padding: 2%;
+    font-size: 90%;
+    width: 100%;
+    line-height: 140%;
+  }
+
+  .img {
+    display: block;
+  }
+
+  .sizepic {
+    width: 190px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* ?1920 x 1080 PC  */
+@media screen and (min-width: 1920px) {
+
+  /* !container */
+  .gridMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    margin: 2% auto;
+    width: 1250px;
+    height: 620px;
+  }
+
+  .gridFirst {
+    grid-column: 1;
+    grid-row: 1;
+    width: 721px;
+  }
+
+  .gridSecond {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+
+  h2 {
+    padding: 2%;
+    font-size: 140%;
+    width: 100%;
+    line-height: 140%;
+  }
+
+  a.dwnld-btn {
+    padding: 15px;
+    margin: 1.2% 6.8%;
+  }
+
+  .img {
+    display: block;
+  }
+
+  .sizepic {
+    margin-top: 3%;
+    width: 450px;
+  }
+}
