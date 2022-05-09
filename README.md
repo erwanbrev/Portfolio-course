@@ -1,7 +1,5 @@
 ## Click [here](https://erwanbrev.github.io/Portfolio-course) to go to the published site !
 
-## Cliquez [ici] (https://erwanbrev.github.io/Portfolio-course) pour aller sur le site publié !
-
 # This is an assignment for my classes to present content about my personal life, consisting of several sections:
 
 - ### About me
@@ -10,7 +8,10 @@
 - ### Multiple contact options
 - ### French & english version available inside
 
-## Cliquez [ici] (https://erwanbrev.github.io/Portfolio-course) pour aller sur le site publié !
+---
+<br>
+
+## Cliquez [ici](https://erwanbrev.github.io/Portfolio-course) pour aller sur le site publié !
 
 # Il s'agit d'un devoir pour mes cours de présentation de contenu sur ma vie personnelle, composé de plusieurs sections :
 
